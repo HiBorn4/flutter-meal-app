@@ -10,16 +10,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'DeliMeals',
       theme: ThemeData(
-        canvasColor: Color.fromRGBO(255, 254, 229, 1),
+        canvasColor: const Color.fromRGBO(255, 254, 229, 1),
         fontFamily: 'Raleway',
         textTheme: ThemeData.light().textTheme.copyWith(
-            bodyLarge: TextStyle(
+            bodyLarge: const TextStyle(
               color: Color.fromRGBO(20, 51, 51, 1),
             ),
-            bodyMedium: TextStyle(
+            bodyMedium: const TextStyle(
               color: Color.fromRGBO(20, 51, 51, 1),
             ),
-            titleMedium: TextStyle(
+            titleMedium: const TextStyle(
               fontSize: 20,
               fontFamily: 'RobotoCondensed',
               fontWeight: FontWeight.bold,
