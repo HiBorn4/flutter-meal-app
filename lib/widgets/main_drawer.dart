@@ -1,10 +1,16 @@
+// Importing the necessary packages
 import 'package:flutter/material.dart';
 import 'package:flutter_complete_guide/screens/filters_screen.dart';
 
+// Creating a stateless widget for the main drawer
 class MainDrawer extends StatelessWidget {
+  // Constructor for the MainDrawer widget
   const MainDrawer({Key key}) : super(key: key);
 
+  // Defining a reusable widget for list tiles with icons
   Widget buildListTile (String title, IconData icon, Function tapHandler) {
+    // Returning a list tile widget with a leading icon, title,
+    // and an onTap function
     return ListTile(
             leading: Icon(
               icon,
@@ -22,11 +28,14 @@ class MainDrawer extends StatelessWidget {
           );
   }
 
+  // Building the drawer widget
   @override
   Widget build(BuildContext context) {
     return Drawer(
+      // Creating a column widget to hold the drawer contents
       child: Column(
         children: <Widget>[
+          // Creating a container widget for the header of the drawer
           Container(
             height: 120,
             width: double.infinity,
@@ -43,6 +52,8 @@ class MainDrawer extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 20,),
+          // Adding a list tile widget for "Meals" with an onTap
+          // function to navigate to the home page
           buildListTile(
             "Meals",
             Icons.restaurant,
@@ -50,6 +61,8 @@ class MainDrawer extends StatelessWidget {
               Navigator.of(context).pushReplacementNamed('/');
               }
           ),
+          // Adding a list tile widget for "Filters" with an onTap
+          // function to navigate to the filters screen
           buildListTile(
             "Filters",
             Icons.filter_alt_outlined,
@@ -62,3 +75,14 @@ class MainDrawer extends StatelessWidget {
     );
   }
 }
+// 1. This code defines a stateless widget for a drawer that is used
+// to navigate between different sections of an app.
+// 2. The widget contains a header with a title, and a list of
+// clickable tiles that each represent a different section
+// of the app.
+// 3. When a tile is clicked, the user is taken to the
+// corresponding screen or page.
+// 4. The buildListTile function is used to create reusable list
+// tile widgets with icons.
+// 5. Overall, this code demonstrates best practices for building
+// user interfaces in Flutter.

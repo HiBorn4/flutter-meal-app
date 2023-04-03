@@ -1,21 +1,31 @@
+// This line imports the material design package from Flutter.
 import 'package:flutter/material.dart';
+
+// These lines import various files and data used in the app.
 import './screens/filters_screen.dart';
 import './screens/meal_detail_screen.dart';
 import './screens/tabs_screen.dart';
 import './screens/category_meal_screen.dart';
-import './data/dummy_data.dart';
-
 import './screens/categories_screen.dart';
-import 'models/meal.dart';
+import './data/dummy_data.dart';
+import './models/meal.dart';
 
+// This line runs the MyApp widget as the main widget of the app.
 void main() => runApp(const MyApp());
 
+// This class MyApp is the main widget of the app and it's stateful. It returns an instance of _MyAppState.
 class MyApp extends StatefulWidget {
   const MyApp({Key key}) : super(key: key);
 
   @override
   State<MyApp> createState() => _MyAppState();
 }
+
+// This class _MyAppState manages the state of the MyApp widget.
+// It contains the filter data, available meals data, and a list of favorite meals data.
+// _setFilters function sets the filters based on user selection and updates the available meals list
+// accordingly.
+
 
 class _MyAppState extends State<MyApp> {
 
@@ -50,6 +60,8 @@ class _MyAppState extends State<MyApp> {
       }).toList();
     });
   }
+
+// These functions _isMealFavourite and _toggleFavourite are used to manage the favorite meals data.
 
   bool _isMealFavourite(String id) {
     return _favouriteMeals.any((meal) => meal.id == id);
@@ -90,23 +102,11 @@ class _MyAppState extends State<MyApp> {
             )), colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.pink).copyWith(secondary: Colors.amber),
       ),
       home: TabsScreen(_favouriteMeals),
-      // initialRoute: '/',
       routes: {
-        // '/': (ctx) => const CategoriesScreen(),
         CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(_availableMeals),
         MealDetailScreen.routeName: (ctx) => MealDetailScreen(_toggleFavourite, _isMealFavourite),
         FiltersScreen.routeName: (ctx) => FiltersScreen(_filters, _setFilters),
       },
-      // onGenerateRoute: (settings) {
-      //   print(settings.arguments);
-      //   if (settings.name == '/meal-detail') {
-      //     return ...;
-      //   }
-      //   else if (settings.name == '/something-else'){
-      //     return ...;
-      //   }
-      //   return MaterialPageRoute(builder: (ctx) => CategoriesScreen());
-      // },
       onUnknownRoute: (settings) {
         return MaterialPageRoute(builder: (ctx) => const CategoriesScreen());
       },
