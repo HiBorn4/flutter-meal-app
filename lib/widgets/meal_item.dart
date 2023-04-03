@@ -10,6 +10,7 @@ class MealItem extends StatelessWidget {
   final int duration;
   final Complexity complexity;
   final Affordability affordability;
+  // final Function removeItem;
 
   const MealItem({Key key,
     @required this.id,
@@ -17,7 +18,8 @@ class MealItem extends StatelessWidget {
     @required this.imageUrl,
     @required this.duration,
     @required this.complexity,
-    @required this.affordability
+    @required this.affordability,
+    // @required this.removeItem
   }) : super(key: key);
 
   String get complexityText {
@@ -56,6 +58,13 @@ class MealItem extends StatelessWidget {
     Navigator.of(context).pushNamed(
       MealDetailScreen.routeName,
       arguments: id,
+
+    )
+    .then((result) {
+      // if (removeItem != null) {
+        // removeItem(result);
+      // }
+    }
     );
   }
 
@@ -107,6 +116,7 @@ class MealItem extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(20),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   Row(children: <Widget>[
                     const Icon(Icons.schedule,),
@@ -118,14 +128,14 @@ class MealItem extends StatelessWidget {
                     children: <Widget>[
                     const Icon(Icons.work,),
                     const SizedBox(width: 6,),
-                    Text('$complexity'),
+                    Text(complexityText),
                     ],
                   ),
                   Row(
                     children: <Widget>[
                     const Icon(Icons.attach_money,),
                     const SizedBox(width: 6,),
-                    Text('$affordability'),
+                    Text(affordabilityText),
                     ],
                   ),
                 ],

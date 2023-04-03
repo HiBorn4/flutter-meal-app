@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_complete_guide/data/dummy_data.dart';
 
+// ignore: must_be_immutable
 class MealDetailScreen extends StatelessWidget {
   static const routeName = '/meal-detail';
-  const MealDetailScreen({Key key}) : super(key: key);
+  Function favourite;
+  final Function _isMealFavourite;
+  MealDetailScreen(this.favourite, this._isMealFavourite, {Key key}) : super(key: key);
 
   Widget buildSectionTitle (BuildContext context, String text) {
     return SizedBox(
@@ -75,6 +78,12 @@ class MealDetailScreen extends StatelessWidget {
               itemCount: selectedMeal.steps.length,
             )),
           ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => favourite(mealId),
+        child: Icon(
+          _isMealFavourite(mealId) ? Icons.star : Icons.star_border,
         ),
       ),
     );
