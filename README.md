@@ -67,6 +67,15 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use and 
 
 We would like to express our gratitude to the Flutter community for their continuous support and the developers of the libraries and packages used in this app.
 
-If you have any questions or need further assistance, please feel free to contact us.
+If you have any questions or need further assistance, please feel free to contact me.
+
+<div align="center">
+  <a href="https://twitter.com/ShirkeAryan2234/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+  </a>
+  <a href="https://www.linkedin.com/in/aryan-shirke/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+</div>
 
 Happy cooking and bon appétit!
