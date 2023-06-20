@@ -20,16 +20,36 @@ Welcome to the Flutter Meal App repository! This is a delightful and feature-ric
 
 ## Screenshots
 
-Here are some screenshots of the Flutter Meal App in action:
+Here are some screenshots and a demo video of the Flutter Meal App in action:
 
-![Home Screen](screenshots/home_screen.png)
-_The home screen displays featured recipes and categories for easy browsing._
+<!-- Screenshot 1 -->
+<div align="center">
+  <img src="screenshots/home_screen.png" alt="Home Screen" width="300">
+  <p><em>The home screen displays featured recipes and categories for easy browsing.</em></p>
+</div>
 
-![Recipe Details Screen](screenshots/recipe_details_screen.png)
-_Detailed recipe information, including ingredients, instructions, and cooking timers._
+<!-- Screenshot 2 -->
+<div align="center">
+  <img src="screenshots/recipe_details_screen.png" alt="Recipe Details Screen" width="300">
+  <p><em>Detailed recipe information, including ingredients, instructions, and cooking timers.</em></p>
+</div>
 
-![My Recipes Screen](screenshots/my_recipes_screen.png)
-_Users can create and manage their own recipes with step-by-step instructions._
+<!-- Screenshot 3 -->
+<div align="center">
+  <img src="screenshots/my_recipes_screen.png" alt="My Recipes Screen" width="300">
+  <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
+</div>
+
+<!-- Add more screenshots here -->
+
+<!-- Demo Video -->
+<div align="center">
+  <video controls width="300">
+    <source src="demo_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p><em>A demo video showcasing the Flutter Meal App's features.</em></p>
+</div>
 
 ## Getting Started
 
