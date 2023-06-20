@@ -51,13 +51,13 @@ Here are some screenshots and a demo video of the Flutter Meal App in action:
 <!-- Screenshot 3 -->
 <div align="center">
   <img src="screenshots/breakfast.jpg" alt="My Recipes Screen" width="300">
-  <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
+  <p><em>Categorized according to common needs</em></p>
 </div>
 
 <!-- Screenshot 4 -->
 <div align="center">
   <img src="screenshots/drawer.jpg" alt="My Recipes Screen" width="300">
-  <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
+  <p><em>Drawer to navigate between meals and recipies</em></p>
 </div>
 
 <!-- Screenshot 5 -->
@@ -69,19 +69,19 @@ Here are some screenshots and a demo video of the Flutter Meal App in action:
 <!-- Screenshot 6 -->
 <div align="center">
   <img src="screenshots/favourites_one.jpg" alt="My Recipes Screen" width="300">
-  <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
+  <p><em>Multiple Recipies can be favouritized on your requirement</em></p>
 </div>
 
 <!-- Screenshot 7 -->
 <div align="center">
   <img src="screenshots/favourites_two.jpg" alt="My Recipes Screen" width="300">
-  <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
+  <p><em>Users can save or favourite a recipe so that they can use it afterwards</em></p>
 </div>
 
 <!-- Screenshot 8 -->
 <div align="center">
   <img src="screenshots/filters.jpg" alt="My Recipes Screen" width="300">
-  <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
+  <p><em>Users can make filters in which we have four options and each recipe will be filtered</em></p>
 </div>
 
 ## Getting Started
