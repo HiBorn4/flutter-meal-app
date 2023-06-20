@@ -25,7 +25,7 @@ Welcome to the Flutter Meal App repository! This is a delightful and feature-ric
 <!-- Demo Video -->
 <div align="center">
   <video controls width="300">
-    <source src="screenshots/demo.mp4" type="video/mp4">
+    <source src="demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>A demo video showcasing the Flutter Meal App's features.</em></p>
