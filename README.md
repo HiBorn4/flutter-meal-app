@@ -22,6 +22,8 @@ Welcome to the Flutter Meal App repository! This is a delightful and feature-ric
 
 ## App Demo
 
+ Demo video of the Flutter Meal App in action:
+
 <!-- Demo Video -->
 <div align="center">
   <video controls width="300">
@@ -34,7 +36,7 @@ Welcome to the Flutter Meal App repository! This is a delightful and feature-ric
 
 ## Screenshots
 
-Here are some screenshots and a demo video of the Flutter Meal App in action:
+Here are some screenshots of the Flutter Meal App: 
 
 <!-- Screenshot 1 -->
 <div align="center">
