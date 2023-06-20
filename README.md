@@ -44,18 +44,45 @@ Here are some screenshots and a demo video of the Flutter Meal App in action:
 
 <!-- Screenshot 2 -->
 <div align="center">
-  <img src="screenshots/recipe_details_screen.png" alt="Recipe Details Screen" width="300">
+  <img src="screenshots/category_two.jpg" alt="Recipe Details Screen" width="300">
   <p><em>Detailed recipe information, including ingredients, instructions, and cooking timers.</em></p>
 </div>
 
 <!-- Screenshot 3 -->
 <div align="center">
-  <img src="screenshots/my_recipes_screen.png" alt="My Recipes Screen" width="300">
+  <img src="screenshots/breakfast.jpg" alt="My Recipes Screen" width="300">
   <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
 </div>
 
-<!-- Add more screenshots here -->
+<!-- Screenshot 4 -->
+<div align="center">
+  <img src="screenshots/drawer.jpg" alt="My Recipes Screen" width="300">
+  <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
+</div>
 
+<!-- Screenshot 5 -->
+<div align="center">
+  <img src="screenshots/favourites.jpg" alt="My Recipes Screen" width="300">
+  <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
+</div>
+
+<!-- Screenshot 6 -->
+<div align="center">
+  <img src="screenshots/favourites_one.jpg" alt="My Recipes Screen" width="300">
+  <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
+</div>
+
+<!-- Screenshot 7 -->
+<div align="center">
+  <img src="screenshots/favourites_two.jpg" alt="My Recipes Screen" width="300">
+  <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
+</div>
+
+<!-- Screenshot 8 -->
+<div align="center">
+  <img src="screenshots/filters.jpg" alt="My Recipes Screen" width="300">
+  <p><em>Users can create and manage their own recipes with step-by-step instructions.</em></p>
+</div>
 
 ## Getting Started
 
