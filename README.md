@@ -22,16 +22,11 @@ Welcome to the Flutter Meal App repository! This is a delightful and feature-ric
 
 ## App Demo
 
- Demo video of the Flutter Meal App in action:
+Demo video of the Flutter Meal App in action:
 
-<!-- Demo Video -->
-<div align="center">
-  <video controls width="300">
-    <source src="screenshots/demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <p><em>A demo video showcasing the Flutter Meal App's features.</em></p>
-</div>
+https://github.com/HiBorn4/flutter-meal-app/assets/94837419/eb1eb102-f2fd-4e22-a04c-4d82b397a34d
+
+A demo video showcasing the Flutter Meal App's features.
 
 
 ## Screenshots
