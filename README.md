@@ -20,13 +20,25 @@ Welcome to the Flutter Meal App repository! This is a delightful and feature-ric
 - **Social sharing**: Share your favorite recipes with friends and family on social media platforms.
 - **Responsive design**: Enjoy a seamless user experience across various devices and screen sizes.
 
+## App Demo
+
+<!-- Demo Video -->
+<div align="center">
+  <video controls width="300">
+    <source src="screenshots/demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p><em>A demo video showcasing the Flutter Meal App's features.</em></p>
+</div>
+
+
 ## Screenshots
 
 Here are some screenshots and a demo video of the Flutter Meal App in action:
 
 <!-- Screenshot 1 -->
 <div align="center">
-  <img src="screenshots/home_screen.png" alt="Home Screen" width="300">
+  <img src="screenshots/category_one.jpg" alt="Home Screen" width="300">
   <p><em>The home screen displays featured recipes and categories for easy browsing.</em></p>
 </div>
 
@@ -44,14 +56,6 @@ Here are some screenshots and a demo video of the Flutter Meal App in action:
 
 <!-- Add more screenshots here -->
 
-<!-- Demo Video -->
-<div align="center">
-  <video controls width="300">
-    <source src="demo_video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <p><em>A demo video showcasing the Flutter Meal App's features.</em></p>
-</div>
 
 ## Getting Started
 
