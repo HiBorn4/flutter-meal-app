@@ -1,6 +1,6 @@
 # Flutter Meal App
 
-![Flutter Meal App](screenshots/app_screenshot.png)
+![Flutter Meal App](screenshots/categories.jpg)
 
 Welcome to the Flutter Meal App repository! This is a delightful and feature-rich recipe application built with Flutter, designed to help users discover, create, and save their favorite recipes. Whether you're a cooking enthusiast or want to build a recipe sharing platform, this app provides a solid foundation to bring your culinary ideas to life.
 
